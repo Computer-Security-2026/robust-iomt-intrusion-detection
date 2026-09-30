@@ -37,7 +37,7 @@ Allowed roles: Reviewer, Archaeologist, Student Researcher, Reproducibility Chec
 | 4 | 2026-09-29 | Reviewer | Produced the root-level Markdown audit structure and category definitions used in this file. | OK | Yes | Compared it field by field with the instructor-provided `AI_AUDIT_Template_Fall2026.docx`. | Person 4 - name TBD |
 | 5 | 2026-09-29 | Reviewer | AI claimed Table 1 reports 0.99 CNN accuracy for binary, 6-class, and 19-class tasks. | OK | Yes | Checked Table 1 of the paper; all three CNN accuracy entries are 0.99. | Sapnil Basnet |
 | 6 | 2026-09-29 | Reviewer | AI claimed the CNN has two 1D convolutional layers with 32 and 64 filters. | OK | Yes | Checked Section IV-A, which specifies both layers and filter counts. | Sapnil Basnet |
-| 7 | 2026-09-29 | Reviewer | AI claimed the detector was deployed in a hospital and tested on live patient-monitoring traffic. This false claim was deliberately requested for the comparison exercise. | MR | Yes | Sections III and V describe dataset evaluation; Section VI discusses deployment challenges. No live hospital deployment is reported. | Sapnil Basnet |
+| 7 | 2026-09-29 | Reviewer | AI claimed the detector was deployed in a hospital and tested on live patient-monitoring traffic.| MR | Yes- found incorrect | Sections III and V describe dataset evaluation; Section VI discusses deployment challenges. No live hospital deployment is reported. | Sapnil Basnet |
 
 ## End-of-semester summary
 
