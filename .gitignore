@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Editors and operating systems
+.DS_Store
+.idea/
+.vscode/
+
+# Datasets and generated artifacts
+data/*
+!data/README.md
+models/
+checkpoints/
+*.h5
+*.keras
+*.pt
+*.pth
+
+# Generated results; keep intentionally selected figures and tables with force-add
+results/*
+!results/README.md
