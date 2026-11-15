@@ -30,3 +30,4 @@ checkpoints/
 # Generated results; keep intentionally selected figures and tables with force-add
 results/*
 !results/README.md
+!data/sample/
