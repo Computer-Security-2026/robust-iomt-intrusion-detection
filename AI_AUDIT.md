@@ -39,6 +39,7 @@ Allowed roles: Reviewer, Archaeologist, Student Researcher, Reproducibility Chec
 | 6 | 2026-09-29 | Reviewer | AI claimed the CNN has two 1D convolutional layers with 32 and 64 filters. | OK | Yes | Checked Section IV-A, which specifies both layers and filter counts. | Sapnil Basnet |
 | 7 | 2026-09-29 | Reviewer | AI claimed the detector was deployed in a hospital and tested on live patient-monitoring traffic.| MR | Yes- found incorrect | Sections III and V describe dataset evaluation; Section VI discusses deployment challenges. No live hospital deployment is reported. | Sapnil Basnet |
 
+| 8 | 2026-11-19 | Reproducibility Checker | Produced an Isolation Forest component that trains on benign-only traffic features, converts predictions to 0 for normal and 1 for suspicious, reverses the decision score so higher values mean more anomalous traffic, and adds automated tests. | OK | Yes | Ran the component on the sample CICIoMT2024 data; it produced 5,744 predictions for 5,744 test rows, and all 9 automated tests passed. | Danah Alqahtani |
 ## End-of-semester summary
 
 Complete this section before the final demonstration.
