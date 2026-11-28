@@ -44,6 +44,9 @@ def load_data(data_folder="data", holdout=None):
     #Load scale the train and test data for the models
     #An attack name to remove from training only
     #Returns a dictionary with X_train, y_train, X_test, y_test, X_train_benign, attack_test, and feature_names
+    if not os.path.isdir(os.path.join(data_folder, "train")):
+        print("Full data not found, using data/sample instead.")
+        data_folder = os.path.join(data_folder, "sample")
     #step 1 read the CSV files
     train = read_folder(os.path.join(data_folder, "train"))
     test = read_folder(os.path.join(data_folder, "test"))
